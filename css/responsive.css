@@ -55,7 +55,14 @@ main {
 
 
 @media screen and (min-width:769px) {
-   .recipe-title {font-size: x-large;
+   .recipe-title {font-size: 20px;
+    }
+}
+/* Desktop - La grandezza el titolo della ricetta aumenta ancora di più */
+
+@media screen and (min-width:993px) {
+    .recipe-title {
+        font-size: 22px;
     }
 }
 
