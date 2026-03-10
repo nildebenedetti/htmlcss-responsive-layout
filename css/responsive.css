@@ -68,17 +68,23 @@ main {
 
 /* Tablet - Le informazioni della ricetta sotto il video si dispongono a griglia */
 
+/* #0 - Mobile */
+
 .quick-notes ul {
     display: block;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    flex-wrap: nowrap; /* mi ha detto gemini che va tolto*/
+    justify-content: flex-start; /* mi ha detto gemini che va tolto*/
 }
 
 .quick-notes ul > li {
     flex-shrink: 0 ;
 }
 
-@media screen and (min-width: 769px) {
+/* #1 - Tablet + #2 Desktop -> Le informazioni 
+della ricetta tornano a disporsi una sotto l'altra 
+-------per questo, applico range esclusivo-------*/
+
+@media screen and (min-width: 769px) and (max-width:992px) {
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
@@ -93,10 +99,6 @@ main {
 }
 
 }
-
-/* Desktop - Le informazioni della ricetta 
-tornano a disporsi una sotto l'altra */
-
 
 
 /*Il video e le altre informazioni della ricetta 
