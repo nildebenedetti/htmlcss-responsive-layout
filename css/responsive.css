@@ -158,7 +158,21 @@ si dispongono uno accanto all'altro */
     display:none;
 }
 
-/* #1 - tablet - I bottoni social si allargano  */
+/* BONUS #0.1 Large Mobile - I bottoni si allargao già da 576px */
+
+@media screen and (min-width:576px) {
+    .btn {
+        padding: 10px 40px;
+        display: inline-block;
+
+    }
+
+    .social-networks {
+        gap: 5px;
+    }
+}
+
+/* #1 - tablet - I bottoni social si allargano */ 
 
 @media screen and (min-width:769px) {
     .btn {
@@ -171,6 +185,9 @@ si dispongono uno accanto all'altro */
         gap:10px;
     }
 }
+
+*/
+
 /* #2 Desktop - Compaiono i nomi delle piattaforme social */
 
 @media screen and (min-width:993px) {
@@ -223,7 +240,7 @@ riferito al tablet*/
     }
 }
 
-/* #1 - tablet */
+/* #1 - tablet ---ZAPPO TEMPORANEO PER NON CREARE CONFLITTO
 
 @media screen and (min-width:769px) {
     .presentation img {
@@ -232,7 +249,7 @@ riferito al tablet*/
     margin-right: 20px;
     }
 }
-
+ */
 
 
 /* Nel footer i dati del sito e il menu di navigazione 
