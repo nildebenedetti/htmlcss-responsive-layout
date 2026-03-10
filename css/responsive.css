@@ -47,7 +47,7 @@ main {
     
 }
 
-/* La grandezza del titolo diventa più grande */
+/* Tablet - La grandezza del titolo diventa più grande */
 
 .recipe-title {
     font-size:medium;
@@ -66,7 +66,7 @@ main {
     }
 }
 
-/* Le informazioni della ricetta sotto il video si dispongono a griglia */
+/* Tablet - Le informazioni della ricetta sotto il video si dispongono a griglia */
 
 .quick-notes ul {
     display: block;
@@ -75,7 +75,7 @@ main {
 }
 
 .quick-notes ul > li {
-    flex-shrink: shrink ;
+    flex-shrink: 0 ;
 }
 
 @media screen and (min-width: 769px) {
@@ -93,6 +93,18 @@ main {
 }
 
 }
+
+/* Desktop - Le informazioni della ricetta 
+tornano a disporsi una sotto l'altra */
+
+
+
+/*Il video e le altre informazioni della ricetta 
+si dispongono uno accanto all'altro
+*/
+
+
+
 
 /* I bottoni social si allargano */
 
