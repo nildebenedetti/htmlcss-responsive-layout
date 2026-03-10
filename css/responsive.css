@@ -32,6 +32,19 @@ main {
     padding: 50px 170px;
    }
    
-   
-
     }
+
+/* Compare il testo "(Dolce Tradizionale)" */
+
+.recipe-origin {
+	display: none;
+}
+
+@media screen and (min-width:769px) {
+    .recipe-origin {
+        display:inline-block;
+    }
+    
+}
+
+/* La grandezza del titolo diventa più grande */
