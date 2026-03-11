@@ -126,6 +126,7 @@ si dispongono uno accanto all'altro */
 
         .recipe-video {
         flex-basis: 70%;
+        height:auto;
         }
 
         .recipe-info {
