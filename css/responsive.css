@@ -8,7 +8,7 @@
 	justify-content: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     #topbar {
         justify-content: flex-start;
     }
@@ -20,13 +20,13 @@ main {
 	padding: 20px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     main {
         padding: 50px;
     }
 }
 
-@media screen and (min-width:993px) {
+@media screen and (min-width:992px) {
    main {
     background-color: #f6f5f3;
     padding: 50px 170px;
@@ -40,7 +40,7 @@ main {
 	display: none;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
     .recipe-origin {
         display:inline-block;
     }
@@ -152,7 +152,7 @@ si dispongono uno accanto all'altro */
 
 .social-networks {
     gap: 20px;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .label {
@@ -177,10 +177,10 @@ si dispongono uno accanto all'altro */
 
 /* #1 - tablet - I bottoni social si allargano */ 
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
     .btn {
     padding: 10px 55px;
-       display: inline-block;
+    display: inline-block;
 
     }
 
@@ -195,7 +195,7 @@ si dispongono uno accanto all'altro */
 
 /* #2 Desktop - Compaiono i nomi delle piattaforme social */
 
-@media screen and (min-width:993px) {
+@media screen and (min-width:992px) {
     .btn {
         display:flex;
         gap:10px;
@@ -224,7 +224,7 @@ si dispongono uno accanto all'altro */
 	display: none;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
     .ads {
         display: block;
     }
@@ -255,7 +255,7 @@ riferito al tablet*/
 
 /* #1 - tablet ---ZAPPO TEMPORANEO PER NON CREARE CONFLITTO
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
     .presentation img {
     display: inline-block;
     float: inline-start;
@@ -277,7 +277,7 @@ footer > address {
     text-align: center;
 }
 
-@media screen and (min-width:993px) {
+@media screen and (min-width:992px) {
     footer {
     display:flex;
     justify-content: space-between;
