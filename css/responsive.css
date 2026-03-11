@@ -55,15 +55,17 @@ main {
 
 
 @media screen and (min-width:769px) {
-   .recipe-title {font-size: 20px;
+   .recipe-title {
+    font-size: 1.2rem;
     }
 }
 /* Desktop - La grandezza el titolo della ricetta aumenta ancora di più */
 
 @media screen and (min-width:993px) {
     .recipe-title {
-        font-size: 22px;
-    }
+        font-size: 1.4rem;
+    
+}
 }
 
 /* Tablet - Le informazioni della ricetta sotto il video si dispongono a griglia */
